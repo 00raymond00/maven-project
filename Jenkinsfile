@@ -3,7 +3,6 @@ pipeline {
 
     tools {
         maven 'localMaven'
-        org.jenkinsci.plugins.docker.commons.tools.DockerTool 'localDocker'
     }
 
     stages {
